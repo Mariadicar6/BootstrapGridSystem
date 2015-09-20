@@ -11,10 +11,18 @@ a{
 	color: black;
 }
 
+a:hover{
+	color: grey;
+	text-decoration: none;
+}
 p{
 	font-size: 0.9em;
 	color: grey;
 
+}
+
+.i-block{
+	display: inline-block ;
 }
 /*MENU*/
 .nav>li>a{
@@ -30,11 +38,8 @@ p{
 	border-radius: 0px;
 }
 
-/*VIDEO*/
-iframe{
-	height: 172px;
-	width: 100%;
-}
+
+
 
 /*****/
 .foto{
@@ -160,6 +165,13 @@ i{
 	padding: 0% !important;
 }
 
+.pt-1{
+	padding-top: 1%;
+}
+
+.pb-1{
+	padding-bottom: 1%;
+}
 .pd-2{
 	padding: 2%;
 }
@@ -212,36 +224,10 @@ i{
 	padding-right: 5%;
 }
 
-.pl-10{
-	padding-left: 10%;
-}
-
-.pr-10{
-	padding-right: 10%;
-}
-
-.pt-10{
-	padding-top: 10%;
-}
-.pl-30{
-	padding-left: 30%;
-}
-
-.pr-30{
-	padding-right: 30%;
-}
-.pd-10{
-	padding: 10%;
-}
 
 .float-left{
 	float: left;
 }
-
-.float-right{
-	float: right;
-}
-
 
 
 @media (max-width: 991px) and (min-width: 768px) { 
@@ -256,6 +242,33 @@ i{
     }
 }
 
+@media screen and (max-width: 767px) {
+    iframe{
+		height: 250px;
+		width: 100%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 919px)  {
+    iframe{
+		height: 205px;
+		width: 100%;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px)  {
+    iframe{
+		height: 202px;
+		width: 100%;
+	}
+}
+
+@media (min-width: 1200px) {
+    iframe{
+		height: 207px;
+		width: 100%;
+	}
+}
 
 h2{
 	font-size: 1.8em;
