@@ -20,10 +20,10 @@
 	<header>
     <div class="container">
       <div class="row">
-        <div class="col-lg-5 col-sm-8">
-          <h2>Site name</h2>
+        <div class="col-lg-5 col-sm-8 col-xs-5">
+          <h2 class="mg-0 pt-3">Site name</h2>
         </div>
-        <div class="col-lg-3 col-sm-4 pt-3 text-right">
+        <div class="col-lg-3 col-sm-4 col-xs-7 pt-3 text-right">
           <a href="#"><i class="fa fa-home"></i>Noticias</a>
           <a href="#"><i class="fa fa-home"></i>Enlaces RSS</a>
         </div>
@@ -42,7 +42,7 @@
     <div class="container">
       <div class="gris">
         <!-- Nav tabs -->
-      <ul class="nav nav-tabs" role="tablist">
+      <ul class="nav nav-tabs hidden-xs" role="tablist">
         <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Bienvenido</a></li>
         <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Actualidades</a></li>
         <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">En directo</a></li>
@@ -57,8 +57,69 @@
           <div role="tabpanel" class="tab-pane" id="messages">...</div>
           <div role="tabpanel" class="tab-pane" id="settings">...</div>
         </div> -->
+
+
+    <nav class="navbar visible-xs">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Navegación</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right text-right">
+            <li>
+              <a href="#">
+                <span>Bienvenido</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Actualidades</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>En directo</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Reporte financiero</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Nuestra oferta</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>De nosotros a usted</span>
+              </a>
+            </li>
+            <li role="separator" class="divider"></li>
+            <li class="hidden-xs">
+              <div class="search">
+                <form class="navbar-form" role="search">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Ingresa tu búsqueda">
+                  </div>
+                  <button type="submit" class="btn btn-default">Buscar</button>
+                </form>
+              </div>              
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>  
+    </nav>  
+      </div>
+    </div>
+    
   </div>
   <div class="container">
     <div class="row">
@@ -69,10 +130,10 @@
           <h4 class="font-w-800">Lorem ipsum dolor sit.</h4>
           <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis accusantium eius, excepturi quidem voluptatibus quos tenetur adipisci eaque. Adipisci distinctio placeat nulla molestias asperiores est dolorum repudiandae deserunt dolore sit.</p>
           <div class="row">
-            <div class="col-lg-4 col-sm-4">
+            <div class="col-lg-4 col-sm-4 col-xs-4">
               <a href="#" class="font-w-800"><i class="fa fa-bookmark"></i>Ver más...</a>
             </div>
-            <div class="col-lg-8 col-sm-8">
+            <div class="col-lg-8 col-sm-8  col-xs-8">
               <a href="#"class="font-w-800" ><i class="fa fa-bookmark"></i>Etiquetas:</a>
               <a href="" class="pr-2 underline">lorem</a><a href="" class="pr-2 underline">ipsum</a><a href="" class="pr-2 underline">diligat</a>
             </div>
@@ -85,10 +146,10 @@
           <h4 class="font-w-800">Lorem ipsum dolor sit.</h4>
           <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis accusantium eius, excepturi quidem voluptatibus quos tenetur adipisci eaque. Adipisci distinctio placeat nulla molestias asperiores est dolorum repudiandae deserunt dolore sit.</p>
           <div class="row">
-            <div class="col-lg-4 col-sm-4">
+            <div class="col-lg-4 col-sm-4 col-xs-4">
               <a href="#" class="font-w-800"><i class="fa fa-bookmark"></i>Ver más...</a>
             </div>
-            <div class="col-lg-8 col-sm-8">
+            <div class="col-lg-8 col-sm-8 col-xs-8">
               <a href="#" class="font-w-800"><i class="fa fa-bookmark"></i>Etiquetas:</a>
               <a href="" class="pr-2 underline">lorem</a><a href="" class="pr-2 underline">ipsum</a><a href="" class="pr-2 underline ">diligat</a>
             </div>
@@ -103,10 +164,10 @@
           </div>
           <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore similique, delectus accusamus tempore porro! Cumque veritatis error hic nisi quis ducimus, facilis placeat tempora impedit eos, eius fugit itaque, ut. Dolore similique, delectus accusamus tempore porro! Cumque veritatis error hic nisi quis ducimus.</p>
           <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-sm-4 col-xs-4">
               <a href="#" class="font-w-800"><i class="fa fa-bookmark"></i>Ver más...</a>
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-8 col-sm-8 col-xs-8">
               <a href="#" class="font-w-800"><i class="fa fa-bookmark"></i>Etiquetas:</a>
               <a href="" class="pr-2 underline">lorem</a><a href="" class="pr-2 underline">ipsum</a><a href="" class="pr-2 underline">diligat</a>
             </div>
@@ -117,10 +178,10 @@
           <h4 class="font-w-800">Etiam lorem et suspira nostres</h4>
           <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore similique, delectus accusamus tempore porro! Cumque veritatis error hic nisi quis ducimus, facilis placeat tempora impedit eos, eius fugit itaque, ut. Dolore similique, delectus accusamus tempore porro! Cumque veritatis error hic nisi quis ducimus</p>
           <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-sm-4 col-xs-4">
               <a href="#" class="font-w-800"><i class="fa fa-bookmark"></i>Ver más...</a>
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-8 col-sm-8 col-xs-8">
               <a href="#" class="font-w-800"><i class="fa fa-bookmark"></i>Etiquetas:</a>
               <a href="" class="pr-2 underline">lorem</a><a href="" class="pr-2 underline">ipsum</a><a href="" class="pr-2 underline">diligat</a>
             </div>
@@ -137,17 +198,17 @@
           <h4 class="font-w-800">Claire Dupond</h4>
           <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa suscipit, quos voluptatibus deleniti, quia a temporibus unde delectus ad corrupti, eius soluta excepturi ex! Maxime, nobis soluta natus laboriosam aut.</p>
           <div class="row">
-            <div class="col-lg-8 col-sm-7">
+            <div class="col-lg-8 col-sm-7 col-xs-7">
               <p>Publicado el 09-03-15</p>
             </div>
-            <div class="col-lg-4 col-sm-5">
+            <div class="col-lg-4 col-sm-5 col-xs-5">
               <a href="#" ><i class="fa fa-bookmark"></i>Ver más...</a>
             </div>
           </div>
         </section>
         <section class="agenda">
           <a class="bg-grey3 pd-btn white mb-2">Agenda</a>
-          <div>
+          <div class="clearfix mb-2">
             <div class="fecha-agenda bg-grey2 text-center float-left mr-4">
               <h4>23 <br> Enero</h4>
             </div>
@@ -155,7 +216,7 @@
             <p class="font-w-800">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
             <p class="mg-0">De 23 a 28 Diciembre 2015</p>
           </div>
-          <div>
+          <div class="clearfix mb-2">
             <div class="fecha-agenda bg-grey2 text-center float-left mr-4">
               <h4>23 <br> Enero</h4>
             </div>
@@ -163,7 +224,7 @@
             <p class="font-w-800">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
             <p class="mg-0">De 23 a 28 Diciembre 2015</p>
           </div>
-          <div>
+          <div class="clearfix mb-2">
             <div class="fecha-agenda bg-grey2 text-center float-left mr-4">
               <h4>23 <br> Enero</h4>
             </div>
@@ -171,7 +232,7 @@
             <p class="font-w-800">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
             <p class="mg-0">De 23 a 28 Diciembre 2015</p>
           </div>
-          <div>
+          <div class="clearfix mb-2">
             <div class="fecha-agenda bg-grey2 text-center float-left mr-4">
               <h4>23 <br> Enero</h4>
             </div>
@@ -192,7 +253,7 @@
         </section>
       </div>
 
-      <div class="col-lg-3">
+      <div class="col-lg-3 visible-lg-block">
         <section class="mas-informacion mt-5">
           <h4 class="font-w-800 mt-0">Más información</h4>
           <h5 class="font-w-800"><i class="fa fa-bookmark"></i>Finanzas y fiscalización</h5>
@@ -222,7 +283,7 @@
     </div>
     <hr class="big-hr">
     <div class="row">
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-sm-3 col-xs-6">
         <h5 class="font-w-800">Rubros</h5>
         <h5 class="font-w-800"><i class="fa fa-bookmark"></i>Actualidades</h5>
         <h5 class="font-w-800"><i class="fa fa-bookmark"></i>En directo</h5>
@@ -230,7 +291,7 @@
         <h5 class="font-w-800"><i class="fa fa-bookmark"></i>Nuestra oferta</h5>
         <h5 class="font-w-800"><i class="fa fa-bookmark"></i>De Nosotros a ustedes</h5>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-3 visible-lg-block">
         <h5 class="font-w-800">Expertise</h5>
         <h5 class="font-w-800"><i class="fa fa-bookmark"></i>finanzas y fiscalización</h5>
         <h5 class="font-w-800"><i class="fa fa-bookmark"></i>Investigación y equipos</h5>
@@ -240,19 +301,20 @@
         <h5 class="font-w-800"><i class="fa fa-bookmark"></i>Social / Servicios</h5>
         <h5 class="font-w-800"><i class="fa fa-bookmark"></i>Transporte</h5>
       </div>
-      <div class="col-lg-2 pd-0">
+      <div class="col-lg-2 pd-0 col-sm-3 col-xs-6">
         <h5 class="font-w-800">Suscripción</h5>
         <h5 class="font-w-800"><i class="fa fa-bookmark"></i>Todo el flujo</h5>
         <h5 class="font-w-800"><i class="fa fa-bookmark"></i>Flujo RSS para expertos</h5>
         <h5 class="font-w-800"><i class="fa fa-bookmark"></i>Noticias</h5>
       </div>    
-      <div class="col-lg-2"> 
+      <div class="clerafix visible-xs"></div>
+      <div class="col-lg-2 col-sm-3 col-xs-6 "> 
         <h5 class="font-w-800">Nosotros</h5>
         <h5 class="font-w-800"><i class="fa fa-bookmark"></i>¿Quienes somos?</h5>
         <h5 class="font-w-800"><i class="fa fa-bookmark"></i>Plan del sitio</h5>
         <h5 class="font-w-800"><i class="fa fa-bookmark"></i>Información legal</h5>
       </div>
-      <div class="col-lg-2">
+      <div class="col-lg-2 col-sm-3 col-xs-6">
         <h5 class="font-w-800">Contacto</h5>
         <h5 class="font-w-800"><i class="fa fa-bookmark"></i>Contáctanos</h5>
         <h5 class="font-w-800"><i class="fa fa-bookmark"></i>FAQ</h5>

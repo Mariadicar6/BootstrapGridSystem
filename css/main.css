@@ -55,6 +55,19 @@ iframe{
 .big-hr{
 	border: 5px solid #848484;
 }
+
+/**/
+.navbar .navbar-brand {
+  font-size: 35px;
+  color: #444;
+}
+.navbar .navbar-toggle .icon-bar {
+  background: #444;
+}
+.navbar .navbar-right .separator {
+  margin-top: 12px;
+  margin-left: 5px;
+}
 /******************************/
 .bg-grey1{
 	background-color: #D8D8D8;
@@ -229,9 +242,29 @@ i{
 	float: right;
 }
 
-@media (max-width: 768px) { 
+
+
+@media (max-width: 991px) and (min-width: 768px) { 
 	.nav>li>a{
 		padding: 10px 12px;
 	}
 }
 
+@media screen and (max-width: 600px) {
+    * {
+        font-size: 0.97em;
+    }
+}
+
+
+h2{
+	font-size: 1.8em;
+}
+
+h3{
+	font-size: 1.6em;
+}
+
+h4{
+	font-size: 1.4em;
+}
